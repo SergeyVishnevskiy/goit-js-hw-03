@@ -28,7 +28,7 @@ for (const key of keys) {
 
 
   let message = '';
-const user = {
+  const user = {
   age: 20,
   hobby: 'html',
   name: 'Mango',
