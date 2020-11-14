@@ -97,20 +97,22 @@
 
 
 //===============||==============\\
-let janres = ['rap', 'rock', 'pop'];
+// let janres = ['rap', 'rock', 'pop'];
 
-janres.push('jazz');
+// janres.push('jazz');
 
-console.log(janres);
+// console.log(janres);
 
 
-function customPush(array,...element) {
-    if (!Array.isArray(array)) {
-        console.log('Array is required');
-        return;
-    }
-    let resultArray = [...array, ...element];
+// function customPush(array,...element) {
+//     if (!Array.isArray(array)) {
+//         console.log('Array is required');
+//         return;
+//     }
+//     let resultArray = [...array, ...element];
 
-    return resultArray;
-}
-console.log(customPush(['rap', 'rock', 'pop'], 'trance', 'vocal', 'bluz'));
+//     return resultArray;
+// }
+// console.log(customPush(['rap', 'rock', 'pop'], 'trance', 'vocal', 'bluz'));
+const { name, age, ...props } = { name: 'Poly', age: 3, games: 47, isOnline: false };
+console.log( { name, age, ...props } = { name: 'Poly', age: 3, games: 47, isOnline: false });
