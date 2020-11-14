@@ -38,6 +38,12 @@ const matchDay = {
             trains: '5 years',
             in_a_position_with: '2015.10.08',
             contract_to: '2024.06.30',
+        },
+        statistics: {
+            posicion: 3,
+            games: [ 'n:8', 'w:5', 'd:2', 'l:1'],
+            points: 17,
+            goals : ['goals scored: 18', 'conceded goals: 16', 'head difference: +2'],
         }
     },
     teamGuest: {
