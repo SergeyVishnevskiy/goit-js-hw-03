@@ -7,7 +7,15 @@
 
 //======================decision=================\\
 const findBestEmployee = function(employees) {
-    
+    const values = Object.values(employees);
+    // console.log(values);
+    const numberMax = Math.max(...values);
+    // console.log(numberMax);
+    for (let key in employees) {
+      if ( employees[key] === numberMax)
+      return key;
+    }
+      return '';
   };
   
  
