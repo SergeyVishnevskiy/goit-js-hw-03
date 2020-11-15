@@ -12,8 +12,16 @@ const products = [
 ];
 
 const getAllPropValues = function(arr, prop) {
-  // твой код
-};
+    const names = [];
+    for (const product of arr) {
+        names.push(product[prop])
+        if (product[prop] === undefined) {
+            return [];
+        }
+    }
+    return names;
+}
+
 
 /*
  * Вызовы функции для проверки работоспособности твоей реализации.
