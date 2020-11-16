@@ -14,10 +14,10 @@ const products = [
 const calculateTotalPrice = function(allProdcuts, productName) {
     let total = 0;
     // console.log(allProdcuts);
-    for (const allProdcuts of products) {
+    for (const products of allProdcuts) {
         
-        if (allProdcuts.name === productName) {
-            total += allProdcuts.price * allProdcuts.quantity;
+        if (products.name === productName) {
+            total += products.price * products.quantity;
         }
     }
     return total;
@@ -28,4 +28,9 @@ const calculateTotalPrice = function(allProdcuts, productName) {
  */
 console.log(calculateTotalPrice(products, 'Радар')); // 5200
 
+console.log(calculateTotalPrice(products, 'Сканер')); // 8100
+
 console.log(calculateTotalPrice(products, 'Дроид')); // 2800
+
+console.log(calculateTotalPrice(products, 'Захват')); // 2400
+
