@@ -13,6 +13,7 @@ const products = [
 
 const calculateTotalPrice = function(allProdcuts, productName) {
     let total = 0;
+    console.log(allProdcuts);
     for (const allProdcuts of products) {
         
         if (allProdcuts.name === productName) {
