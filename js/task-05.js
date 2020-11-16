@@ -31,4 +31,4 @@ console.log(getAllPropValues(products, 'name')); // ['Радар', 'Сканер
 console.log(getAllPropValues(products, 'quantity')); // [4, 3, 7, 2]
 
 console.log(getAllPropValues(products, 'category')); // []
-//================================================\\
+
