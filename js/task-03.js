@@ -15,7 +15,6 @@ const findBestEmployee = function(employees) {
       if ( employees[key] === numberMax)
       return key;
     }
-      return '';
   };
   
  
