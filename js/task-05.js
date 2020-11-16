@@ -14,13 +14,13 @@ const products = [
 const getAllPropValues = function(arr, prop) {
     const names = [];
     for (const product of arr) {
-        names.push(product[prop])
-        if (product[prop] === undefined) {
-            return [];
-        }
+       if (prop in product) {
+           names.push(product[prop]);
+       }
     }
     return names;
 }
+
 
 
 /*
